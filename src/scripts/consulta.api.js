@@ -1,3 +1,7 @@
+import axios from 'axios';
+
+import cors from 'cors';
+
 const getConsultaBeneficiario = async (data) => {
   var obj = [];
   try {
@@ -5,6 +9,11 @@ const getConsultaBeneficiario = async (data) => {
     var opt = {
       headers: {
         'chave-api-dados': '11fb7c03eb5299df9e5e2f79bcd981ec',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Headers': 'Authorization',
+        'Access-Control-Allow-Methods':
+          'GET, POST, OPTIONS, PUT, PATCH, DELETE',
+        'Content-Type': 'application/json;charset=UTF-8',
       },
     };
 
