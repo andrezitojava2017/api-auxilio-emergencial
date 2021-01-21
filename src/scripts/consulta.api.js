@@ -8,7 +8,7 @@ const getConsultaBeneficiario = async (data) => {
     var url = `http://www.transparencia.gov.br/api-de-dados/auxilio-emergencial-por-cpf-ou-nis?codigoBeneficiario=${data.cpf}&pagina=1`;
     var opt = {
       headers: {
-        'chave-api-dados': '11fb7c03eb5299df9e5e2f79bcd981ec',
+        'chave-api-dados': 'xxxxx',
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Headers': 'Authorization',
         'Access-Control-Allow-Methods':
